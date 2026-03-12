@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1400" font-family="Arial, sans-serif" font-size="13">
+  <!-- Background -->
+  <rect width="900" height="1400" fill="#1a1a2e" rx="12"/>
+  
+  <!-- Title -->
+  <rect x="200" y="20" width="500" height="50" rx="8" fill="#6B4C8A"/>
+  <text x="450" y="50" text-anchor="middle" fill="white" font-size="18" font-weight="bold">The Unforeseen – Oyun Akış Diyagramı (UML)</text>
+  <text x="450" y="65" text-anchor="middle" fill="#ccc" font-size="11">U97 Unity Takımı – AkademiJam 2026</text>
+
+  <!-- ===== ROW 1: START ===== -->
+  <!-- START NODE -->
+  <ellipse cx="450" cy="120" rx="80" ry="25" fill="#6B4C8A" stroke="#9B7ABD" stroke-width="2"/>
+  <text x="450" y="125" text-anchor="middle" fill="white" font-weight="bold">🎮 OYUN BAŞLAR</text>
+  <line x1="450" y1="145" x2="450" y2="165" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ANA MENU -->
+  <rect x="340" y="165" width="220" height="45" rx="8" fill="#2E5FA3" stroke="#5B8FD3" stroke-width="2"/>
+  <text x="450" y="190" text-anchor="middle" fill="white" font-weight="bold">📋 ANA MENÜ</text>
+  <text x="450" y="205" text-anchor="middle" fill="#ccc" font-size="11">Yeni Oyun / Çıkış</text>
+  <line x1="450" y1="210" x2="450" y2="230" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- GİRİŞ SİNEMATİK -->
+  <rect x="310" y="230" width="280" height="55" rx="8" fill="#2E5FA3" stroke="#5B8FD3" stroke-width="2"/>
+  <text x="450" y="252" text-anchor="middle" fill="white" font-weight="bold">🎬 Giriş Sinematik</text>
+  <text x="450" y="268" text-anchor="middle" fill="#ccc" font-size="11">Medyumun Odası – Sahne Yüklenir</text>
+  <line x1="450" y1="285" x2="450" y2="305" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- MÜŞTERİ GELİR -->
+  <rect x="310" y="305" width="280" height="55" rx="8" fill="#9C6B3C" stroke="#D4974A" stroke-width="2"/>
+  <text x="450" y="327" text-anchor="middle" fill="white" font-weight="bold">👤 Müşteri Gelir</text>
+  <text x="450" y="343" text-anchor="middle" fill="#ccc" font-size="11">Diyalog sistemi tetiklenir</text>
+  <line x1="450" y1="360" x2="450" y2="380" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- MÜŞTERİ HİKAYESİ -->
+  <rect x="310" y="380" width="280" height="55" rx="8" fill="#9C6B3C" stroke="#D4974A" stroke-width="2"/>
+  <text x="450" y="402" text-anchor="middle" fill="white" font-weight="bold">📖 Müşteri Hikayesi</text>
+  <text x="450" y="418" text-anchor="middle" fill="#ccc" font-size="11">Kayıp yakın hakkında bilgi verir</text>
+  <line x1="450" y1="435" x2="450" y2="455" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- BULMACA SEÇİMİ (Diamond) -->
+  <polygon points="450,455 560,500 450,545 340,500" fill="#4A3560" stroke="#9B7ABD" stroke-width="2"/>
+  <text x="450" y="497" text-anchor="middle" fill="white" font-weight="bold">Bulmaca</text>
+  <text x="450" y="513" text-anchor="middle" fill="white" font-weight="bold">Seçimi</text>
+
+  <!-- Branch lines from diamond -->
+  <!-- Left branch: El Falı -->
+  <line x1="340" y1="500" x2="180" y2="500" stroke="#888" stroke-width="2"/>
+  <line x1="180" y1="500" x2="180" y2="570" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="255" y="490" text-anchor="middle" fill="#ccc" font-size="11">Tip 1</text>
+
+  <!-- Center branch: Yapboz -->
+  <line x1="450" y1="545" x2="450" y2="570" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="465" y="562" fill="#ccc" font-size="11">Tip 2</text>
+
+  <!-- Right branch: Yıldız -->
+  <line x1="560" y1="500" x2="720" y2="500" stroke="#888" stroke-width="2"/>
+  <line x1="720" y1="500" x2="720" y2="570" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="635" y="490" text-anchor="middle" fill="#ccc" font-size="11">Tip 3</text>
+
+  <!-- EL FALI PUZZLE -->
+  <rect x="80" y="570" width="200" height="60" rx="8" fill="#3D7A5A" stroke="#5DBF8A" stroke-width="2"/>
+  <text x="180" y="595" text-anchor="middle" fill="white" font-weight="bold">🤚 El Falı</text>
+  <text x="180" y="612" text-anchor="middle" fill="#ccc" font-size="11">Sembol seçimi mekaniği</text>
+
+  <!-- YAPBOZ PUZZLE -->
+  <rect x="340" y="570" width="220" height="60" rx="8" fill="#3D7A5A" stroke="#5DBF8A" stroke-width="2"/>
+  <text x="450" y="595" text-anchor="middle" fill="white" font-weight="bold">🧩 Yapboz</text>
+  <text x="450" y="612" text-anchor="middle" fill="#ccc" font-size="11">Sürükle-bırak parçalar</text>
+
+  <!-- YILDIZ PUZZLE -->
+  <rect x="620" y="570" width="200" height="60" rx="8" fill="#3D7A5A" stroke="#5DBF8A" stroke-width="2"/>
+  <text x="720" y="595" text-anchor="middle" fill="white" font-weight="bold">⭐ Yıldız Haritası</text>
+  <text x="720" y="612" text-anchor="middle" fill="#ccc" font-size="11">Yıldızları hizalama</text>
+
+  <!-- Decision diamonds for each puzzle -->
+  <!-- El Falı decision -->
+  <line x1="180" y1="630" x2="180" y2="660" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="180,660 240,690 180,720 120,690" fill="#2A2A4A" stroke="#9B7ABD" stroke-width="2"/>
+  <text x="180" y="687" text-anchor="middle" fill="white" font-size="11">Doğru?</text>
+
+  <!-- Yapboz decision -->
+  <line x1="450" y1="630" x2="450" y2="660" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="450,660 510,690 450,720 390,690" fill="#2A2A4A" stroke="#9B7ABD" stroke-width="2"/>
+  <text x="450" y="687" text-anchor="middle" fill="white" font-size="11">Tamam?</text>
+
+  <!-- Yıldız decision -->
+  <line x1="720" y1="630" x2="720" y2="660" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="720,660 780,690 720,720 660,690" fill="#2A2A4A" stroke="#9B7ABD" stroke-width="2"/>
+  <text x="720" y="687" text-anchor="middle" fill="white" font-size="11">Tamam?</text>
+
+  <!-- Retry paths (Hayır) -->
+  <text x="100" y="710" text-anchor="middle" fill="#FF6B6B" font-size="11">Hayır ❌</text>
+  <line x1="120" y1="690" x2="60" y2="690" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="60" y1="690" x2="60" y2="600" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="60" y1="600" x2="80" y2="600" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowRed)"/>
+
+  <text x="360" y="710" text-anchor="middle" fill="#FF6B6B" font-size="11">Hayır ❌</text>
+  <line x1="390" y1="690" x2="330" y2="690" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="330" y1="690" x2="330" y2="600" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="330" y1="600" x2="340" y2="600" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowRed)"/>
+
+  <text x="800" y="710" text-anchor="middle" fill="#FF6B6B" font-size="11">Hayır ❌</text>
+  <line x1="780" y1="690" x2="840" y2="690" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="840" y1="690" x2="840" y2="600" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="840" y1="600" x2="820" y2="600" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowRed)"/>
+
+  <!-- Evet paths converge -->
+  <text x="195" y="735" fill="#4CAF50" font-size="11">Evet ✅</text>
+  <line x1="180" y1="720" x2="180" y2="760" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="180" y1="760" x2="440" y2="760" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <text x="465" y="735" fill="#4CAF50" font-size="11">Evet ✅</text>
+  <line x1="450" y1="720" x2="450" y2="760" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <text x="735" y="735" fill="#4CAF50" font-size="11">Evet ✅</text>
+  <line x1="720" y1="720" x2="720" y2="760" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="720" y1="760" x2="460" y2="760" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <!-- BULMACA TAMAMLANDI -->
+  <rect x="330" y="760" width="240" height="50" rx="8" fill="#2E7A3C" stroke="#4CAF50" stroke-width="2"/>
+  <text x="450" y="782" text-anchor="middle" fill="white" font-weight="bold">✅ Bulmaca Tamamlandı</text>
+  <text x="450" y="798" text-anchor="middle" fill="#ccc" font-size="11">Bulmaca tamamlama animasyonu</text>
+  <line x1="450" y1="810" x2="450" y2="830" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- RUH BAĞLANTISI -->
+  <rect x="310" y="830" width="280" height="55" rx="8" fill="#6B4C8A" stroke="#9B7ABD" stroke-width="2"/>
+  <text x="450" y="852" text-anchor="middle" fill="white" font-weight="bold">👻 Ruh ile Bağlantı Kuruldu</text>
+  <text x="450" y="868" text-anchor="middle" fill="#ccc" font-size="11">Medyum ruhla iletişim kurar</text>
+  <line x1="450" y1="885" x2="450" y2="905" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- DİYALOG: ÖLMÜŞ YAKIN -->
+  <rect x="300" y="905" width="300" height="55" rx="8" fill="#9C6B3C" stroke="#D4974A" stroke-width="2"/>
+  <text x="450" y="927" text-anchor="middle" fill="white" font-weight="bold">💬 Ölmüş Yakın Konuşur</text>
+  <text x="450" y="943" text-anchor="middle" fill="#ccc" font-size="11">Müşteriye mesaj iletilir</text>
+  <line x1="450" y1="960" x2="450" y2="980" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- TÜM BULMACALAR TAMAMLANDI? -->
+  <polygon points="450,980 570,1015 450,1050 330,1015" fill="#4A3560" stroke="#9B7ABD" stroke-width="2"/>
+  <text x="450" y="1012" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Tüm Bulmacalar</text>
+  <text x="450" y="1028" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Tamamlandı mı?</text>
+
+  <!-- Hayır: loop back -->
+  <text x="310" y="1008" text-anchor="middle" fill="#FF9800" font-size="11">Hayır →</text>
+  <line x1="330" y1="1015" x2="220" y2="1015" stroke="#FF9800" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="220" y1="1015" x2="220" y2="500" stroke="#FF9800" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="220" y1="500" x2="340" y2="500" stroke="#FF9800" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowOrange)"/>
+  <text x="175" y="750" fill="#FF9800" font-size="10" transform="rotate(-90, 175, 750)">Sonraki Bulmaca</text>
+
+  <!-- Evet: finale -->
+  <text x="480" y="1065" fill="#4CAF50" font-size="11">Evet ✅</text>
+  <line x1="450" y1="1050" x2="450" y2="1080" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <!-- FİNAL SİNEMATİK -->
+  <rect x="300" y="1080" width="300" height="55" rx="8" fill="#2E5FA3" stroke="#5B8FD3" stroke-width="2"/>
+  <text x="450" y="1102" text-anchor="middle" fill="white" font-weight="bold">🎬 Final Sinematik</text>
+  <text x="450" y="1118" text-anchor="middle" fill="#ccc" font-size="11">Veda sahnesi – Müşteri ayrılır</text>
+  <line x1="450" y1="1135" x2="450" y2="1155" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- MEDYUM GELİŞİMİ -->
+  <rect x="300" y="1155" width="300" height="55" rx="8" fill="#6B4C8A" stroke="#9B7ABD" stroke-width="2"/>
+  <text x="450" y="1177" text-anchor="middle" fill="white" font-weight="bold">📈 Medyum Gelişimi</text>
+  <text x="450" y="1193" text-anchor="middle" fill="#ccc" font-size="11">Sonuç ekranı ve başarılar</text>
+  <line x1="450" y1="1210" x2="450" y2="1230" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- OYUN SONU -->
+  <ellipse cx="450" cy="1265" rx="100" ry="28" fill="#8A4C4C" stroke="#C47A7A" stroke-width="2"/>
+  <text x="450" y="1262" text-anchor="middle" fill="white" font-weight="bold">🏁 OYUN SONU</text>
+  <text x="450" y="1278" text-anchor="middle" fill="#ccc" font-size="11">Ana Menü / Çıkış</text>
+
+  <!-- LEGEND -->
+  <rect x="30" y="1310" width="840" height="75" rx="8" fill="#2A2A4A" stroke="#555" stroke-width="1"/>
+  <text x="450" y="1328" text-anchor="middle" fill="#ccc" font-weight="bold">AÇIKLAMA (LEGEND)</text>
+  <rect x="50" y="1338" width="20" height="12" rx="3" fill="#2E5FA3"/>
+  <text x="78" y="1349" fill="#ccc" font-size="11">Sahne / Eylem</text>
+  <rect x="200" y="1338" width="20" height="12" rx="3" fill="#3D7A5A"/>
+  <text x="228" y="1349" fill="#ccc" font-size="11">Bulmaca</text>
+  <rect x="330" y="1338" width="20" height="12" rx="3" fill="#9C6B3C"/>
+  <text x="358" y="1349" fill="#ccc" font-size="11">Diyalog / Anlatı</text>
+  <rect x="490" y="1338" width="20" height="12" rx="3" fill="#4A3560"/>
+  <text x="518" y="1349" fill="#ccc" font-size="11">Karar Noktası</text>
+  <line x1="640" y1="1344" x2="670" y2="1344" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="678" y="1349" fill="#ccc" font-size="11">Yeniden Dene</text>
+  <line x1="770" y1="1344" x2="800" y2="1344" stroke="#FF9800" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="808" y="1349" fill="#ccc" font-size="11">Döngü</text>
+
+  <!-- ARROW MARKERS -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#888"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF6B6B"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF9800"/>
+    </marker>
+  </defs>
+</svg>
