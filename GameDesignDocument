@@ -1,0 +1,145 @@
+﻿
+ 
+GAME DESIGN DOCUMENT (GDD) TEMPLATE 
+ 
+Game Name:  The Unforeseen
+ 
+ 
+Genre: 
+ 
+Rol yapma - bulmaca
+ 
+ Diyalog: oyunda karakterimiz diğer oyuncularla konuşucaktır oyuncuya diyalogda karar verebilme hakkı sağlanacaktır
+
+
+  
+Player:  
+Single-player
+ 
+ 
+TECHNICAL SPECS 
+ 
+Technical Form:  
+Basically there are 2D graphics (flat) and 3D graphics (form) 
+ 
+ 
+ 
+View:  
+1. bakış açısı bazı bulmacalarda 3. Bakış açısına geçilebilir
+ 
+ 
+ 
+Platform:  
+PC 
+ 
+ 
+ 
+Language:  
+C# 
+ 
+Device:  
+PC
+ 
+ 
+ 
+GAME PLAY 
+Karakter yaratma:  oyun mağazasından farklı karakterler satın alınabilecek
+Hikaye süreci: oyuncunun tercihlerine gören sürüklenen hikaye 
+…
+
+ 
+ 
+  
+ 
+Game Play Outline 
+
+
+• Opening the game application :
+
+• Oyuncu oyunu masaüstünden veya başlat menüsünden başlatır. 
+• Oyunun logosunu ve oyun için ipuçlarını içeren bir yükleme ekranı görünür. 
+• Oyun yüklenirken   oyunun müziği çalmaya başlayacak
+
+
+• Game options : 
+Oyun içerisinde ayarlar oyna ve mağaza şeklinde 3  alan olacak
+       ayarlar: ses yükseltme ve azatma  ,.....
+      oyna : oyunun başlamasını sağlayan tuş
+       mağaza: mağazada medyumun kıyafetlerini veya odasındaki eşyaları özeleştirilecek  ürünler olacak kullanıcı satın alabilecek
+
+
+
+• Story synopsis 
+   insanlar yılda bir kez ölülerle iletişim kurabilmektedir ama bazen ruhlar ile  insanlar  bağ kuramaz ve bu yüzden onlarla konuşamazlar. Ana karekterimiz b bir falcı ve bu insanları ölmüş ruhlarla konuşmalarına yardım ediyor bunu  farklı bulmacalar çözerek   yapıyor
+  
+ 
+• Modes
+ 
+Hikaye Modu (Story Mode):
+• Oyuncular ana hikayeyi takip ederler.
+• Görevleri tamamlar ve oyunun ana senaryosunu deneyimlerler.
+Eğitim Modu (Training Mode):
+• Oyuncuların oyunun temel mekaniğini öğrenebileceği ve pratik yapabileceği mod.
+• Yeni oyuncular için oyunun kontrollerini ve oyun yapısını öğrenme fırsatı.
+
+• Game elements
+     medyum:  ana karakterdir . oyuncu genelde bu karakteri kontrol eder
+     müşteriler: müşteriler  ölü ruhlarla iletişim kurabilmek için medyuma gelen kişilerdir
+     bulmacalar: hepsi birbirinde faklı
+      Diyalog: oyunda karakterimiz diğer oyuncularla konuşucaktır oyuncuya diyalogda karar verebilme hakkı sağlanacaktır
+
+  items:
+   kahve fincanı: medyuma ölülerle iletişim kurabilmesi için yardımcı bir itemdir . medyum kahve fincanında aşağısında  belirtilen şekilleri bulmaya çalışıcak  ve onun geçmişi ve geleceği hakkında bilgi toplayacak
+
+
+
+
+
+
+
+  el falı  : el falındaki çizgileri doğru birleştirmek gerekmektedir.
+
+
+
+
+
+
+• Game levels :
+ Oyun ana bir hikayeden oluşuyor ana hikayenin içinde kendine has bir bulmacaya sahip  olmaktadır
+• Player’s controls 
+oyuncular farenin gösterildiği yere bakarken  e tuşuyla etkileşime geçecekler ve bulmacaya göre ek tuşlar eklenilecektir
+
+ 
+• Winning 
+ Ana hikayenin sonunda gelmesi  ve oyuncunun kararını vermesi 
+• Losing 
+ oyunda kaybetme durumu belirlenmemiştir  hikayenin devamlılığı üzerine gidilmiştir ama bulmacayı çözememe durumlarında kaybetme mekaniği eklenebilir
+• End
+“””
+  3 ruhuda kurtaaran medyumumuz ruhları sevdikleriyle buluşturur  ve en sonunda kendi iletişim kurmak istediği ruhu kurtarmaya çalışır ve kurtarır(happy end)
+   3 ruhuda kurtaaran medyumumuz ruhları sevdikleriyle buluşturur   ve en sonunda yanlız kaldığında ölen sevgilisiyle konuşmaya çalışır ama hala şeytanla yaptığı anlaşma bitmemiştir o yüzden buluşamaz (dark end)”””
+
+değiştirelebilir
+• Why is all this fun? 
+ bulmaca seven oyuncular için bir hikayenin içine sokarken biribirinden farklı bulmacaları ile oyuncuları maratonluktan kurtarıyor.
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
