@@ -1,7 +1,7 @@
 ## 📌 Sprint Board
 Project management is tracked via GitHub Project Board:
 
-🔗 [[Sprint Board Link](https://ecedelier12.atlassian.net/jira/software/projects/SCRUM/summary)]
+🔗 [[Sprint Board Link][(https://rumeysadurdu03.atlassian.net/jira/software/projects/KAN/boards/3)]
 
 ## ⚙️ CI/CD Pipeline
 
