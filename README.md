@@ -11,7 +11,7 @@ The project uses GitHub Actions for continuous integration.
 This project is developed as part of AkademiJam. It aims to [projenin amacı].
 
 ## 🚀 Features
-- Features:
+- Features
 - Automatic build on push
 - Code validation
 - Deployment simulationeature
@@ -33,4 +33,4 @@ This project is developed as part of AkademiJam. It aims to [projenin amacı].
 
 
 ## 🎥 Demo Plan
- Video Project(3).mp4
+ Project Video.mp4
